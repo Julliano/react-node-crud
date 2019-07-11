@@ -6,7 +6,7 @@ export default props =>
     <aside className="menu-area">
         {/* refac, create a menu component nav-item */}
         <nav className="menu">
-            <Navitem url="#/" icon="home" title="Home" />
-            <Navitem url="#/users" icon="users" title="Users" />
+            <Navitem url="/" icon="home" title="Home" />
+            <Navitem url="/users" icon="users" title="Users" />
         </nav>
     </aside>
