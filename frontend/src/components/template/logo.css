@@ -8,3 +8,10 @@ aside.logo {
 aside.logo img {
   width: 100%;
 }
+
+@media(max-width: 576px) {
+  aside.logo img {
+    width: 560px;
+    height: 140px;
+  }
+}
